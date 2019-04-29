@@ -107,10 +107,26 @@ var showProducts = function() {
             "Sorry we currently don't have that many of your selected product in stock. Please enter a valid amount or check back later to see if we restocked."
           );
         }
-
-        // buyAgain();
+        // run buyAgain() function to ask user if they would like to purchase another item
+        buyAgain();
       });
   });
 };
+
+// create function to ask user if they would like to buy another product. If yes, run showProducts() function again, if no, send closing message
+function buyAgain() {
+  inquirer.prompt([{
+    type: "confirm",
+    name: "reply",
+    message: "Would you like to buy another item?"
+  }]).then(function(userResponse) {
+    if(userResponse.reply){
+      showProducts();
+    }
+    else {
+      console.log("Thank you for visiting! Come Again!");
+    }
+  });
+}
 
 showProducts();
