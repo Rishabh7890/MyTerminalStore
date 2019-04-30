@@ -1,13 +1,13 @@
 # Bamazon Application
 
 ## Description
-Bamazon is an online store application created with MySQL and Javascript. The application will take in orders from customers and deplete stock from the store's inventory.   
+Bamazon is an online store application created with MySQL and Javascript. The application will take in orders from customers and deplete stock from the store's inventory. Clone the Repository and run it in the terminal to get started.   
 
 ## Starting Up
 
 ![Screen shot](images/bamazon1.png)
 
-Clone the Repository and run it in the terminal to get started. To start up enter the command "node bamazonCustomer.js". It will first display all of the items available for sale. There will be a prompt at the bottom asking the user to enter the ID number of the product they would like to buy. (Press ctrl + c at anytime to exit the application)  
+ To start up enter the command "node bamazonCustomer.js". It will first display all of the items available for sale. There will be a prompt at the bottom asking the user to enter the ID number of the product they would like to buy. (Press ctrl + c at anytime to exit the application)  
 
 ![Screen shot](images/bamazon2.png)
 
