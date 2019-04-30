@@ -115,18 +115,21 @@ var showProducts = function() {
 
 // create function to ask user if they would like to buy another product. If yes, run showProducts() function again, if no, send closing message
 function buyAgain() {
-  inquirer.prompt([{
-    type: "confirm",
-    name: "reply",
-    message: "Would you like to buy another item?"
-  }]).then(function(userResponse) {
-    if(userResponse.reply){
-      showProducts();
-    }
-    else {
-      console.log("Thank you for visiting! Come Again!");
-    }
-  });
+  inquirer
+    .prompt([
+      {
+        type: "confirm",
+        name: "reply",
+        message: "Would you like to buy another item?"
+      }
+    ])
+    .then(function(userResponse) {
+      if (userResponse.reply) {
+        showProducts();
+      } else {
+        console.log("Thank you for visiting! Come Again!");
+      }
+    });
 }
 
 showProducts();
