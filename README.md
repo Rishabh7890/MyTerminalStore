@@ -25,7 +25,7 @@ In the case the user wants to buy another item the updated list of products will
 
 If Bamazon does not have enough of the product in stock the user will be alerted and asked whether they would like to take another look at the inventory and purchase another quantity or item, or exit the application. 
 
-## APIs and Technologies used:
+## Technologies used:
 
 * Javascript
 * Node.js
