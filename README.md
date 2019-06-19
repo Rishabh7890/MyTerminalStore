@@ -1,7 +1,7 @@
-# Bamazon Application
+# MyTerminalStore
 
 ## Description
-Bamazon is an online store application created with MySQL and Javascript. The application will take in orders from customers and deplete stock from the store's inventory. Clone the Repository and run it in the terminal to get started.   
+MyTerminalStore is an online store application created with MySQL and Javascript. The application will take in orders from customers and deplete stock from the store's inventory. Clone the Repository and run it in the terminal to get started.   
 
 ## Starting Up
 
@@ -15,7 +15,7 @@ After entering a value the application will ask the user to enter the quantity o
 
  ![Screen shot](images/bamazon3.png)
 
-If Bamazon has the product left in stock your total will be displayed and the user will be asked if they would like to buy another item or exit the application fot now.
+If MyTerminalStore has the product left in stock your total will be displayed and the user will be asked if they would like to buy another item or exit the application fot now.
  
 ![Screen shot](images/bamazon4.png)
 
@@ -23,7 +23,7 @@ In the case the user wants to buy another item the updated list of products will
 
 ![Screen shot](images/bamazon5.png)
 
-If Bamazon does not have enough of the product in stock the user will be alerted and asked whether they would like to take another look at the inventory and purchase another quantity or item, or exit the application. 
+If MyTerminalStore does not have enough of the product in stock the user will be alerted and asked whether they would like to take another look at the inventory and purchase another quantity or item, or exit the application. 
 
 ## Technologies used:
 
